@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.face{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:salmon;
+    border-radius: 100%;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+.Eye{
+    position: absolute;
+    top: 45px;
+    left: 38px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    /* box-shadow: 1px 0px 1px 1px rgb(177, 217, 244);  */
+}
+.Eye1{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+
+}
+.Eye3{
+    position: absolute;
+    top: 45px;
+    left: 112px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    /* box-shadow: 1px 0px 1px 1px rgb(143, 200, 237);   */
+}
+.Eye4{
+    position: absolute;
+    top: 60px;
+    left: 124px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+}
+.nose{
+    position: absolute;
+    top: 120px;
+    left: 59px;
+    border-radius: 100px;
+    width: 85px;
+    height: 40px;
+    background-color:red;
+    overflow: hidden;
+}
+.nose1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    /* overflow: hidden; */
+}
+.nose2{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(12, 12, 12);
+    overflow: hidden;
+}
+.ear1{
+            top: -11px;
+            background-color: salmon;
+            height:80px;
+            width:90px;
+            border-radius:50%;
+            display: flex ;
+            margin: 50;
+            margin-top: -17px;
+            margin-left: 1px;
+            border: 1px solid black;
+            z-index: -1;
+            position: absolute;  
+        }
+        .ear2{
+            top: -11;
+            background-color: salmon;
+            height:80px;
+            width:90px;
+            border-radius:50%;
+            display: flex ;
+            margin: 50;
+            margin-top: -25px;
+            margin-left: 110px;
+            overflow: hidden;
+            border: 1px solid black;
+            z-index: -1;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="face">
+            <div class="Eye"></div>
+            <div class="Eye1"></div>
+            <div class="Eye3"></div>
+            <div class="Eye4"></div>
+            <div class="nose">
+            <div class="nose1"></div>
+            <div class="nose2"></div>
+        </div>
+            <div class="ear1"></div>
+            <div class="ear2"></div>
+        </div>
+    </section>
+</body>
+</html>
